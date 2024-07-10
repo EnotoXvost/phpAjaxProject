@@ -1,0 +1,60 @@
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    color: #283A55;
+    font-weight: bold;
+}
+.record {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px 0;
+
+    border-top: 4px solid #DBDCDE;
+    border-bottom: 4px solid #DBDCDE;
+}
+
+.record-album {
+    flex: 1;
+}
+
+.record-album img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.record-info {
+    flex: 3;
+}
+
+.info-title h1 {
+    font-size: 48px;
+    line-height: 0.8;
+    margin-bottom: 26px;
+}
+
+.info-title h2 {
+    font-size: 26px;
+}
+
+.info-content {
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.info-footer {
+    margin-top: 30px;
+}
+
+.info-footer a, .info-footer button {
+    width: 155px;
+    padding: 10px 20px;
+    background-color: #F42F5E;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+.info-footer a:hover {
+    background-color: #be2449;
+}

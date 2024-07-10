@@ -1,0 +1,85 @@
+.wrapper {
+
+}
+
+.header {
+    margin-bottom: 40px;
+}
+
+.header_panel {
+    background-color: #F52F5E;
+    padding: 15px 0;
+}
+
+.header_panel .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 34px;
+    min-height: 60px;
+}
+
+.user-panel {
+    display: flex;
+    gap: 30px;
+}
+
+.user-panel__item a {
+    color: white;
+    font-weight: bold;
+}
+
+.main-menu {
+    background-color: #FFF;
+}
+
+.main-menu .container {
+    padding: 0 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-size: 24px;
+    line-height: 1px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-menu__list {
+    font-size: 18px;
+    display: flex;
+    gap: 30px;
+}
+
+.main-menu_item {
+    padding: 34px 0;
+    color: black;
+    font-weight: bold;
+}
+
+.main-menu_item a {
+    color: inherit;
+    transition: color 0.1s ease;
+}
+
+.main-menu_item a:hover {
+    color: #F62E5E;
+}
+
+
+.form-control {
+    padding: 3px;
+    outline: none;
+    border-bottom: 2px solid #D4D8DD;
+}
+
+.form-search {
+    display: flex;
+    gap: 4px;
+}
+
+.form-search button {
+    cursor: pointer;
+}

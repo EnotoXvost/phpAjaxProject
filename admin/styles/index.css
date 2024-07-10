@@ -1,0 +1,66 @@
+
+.wrapper {
+    display: flex;
+    gap: 40px;
+    padding: 10px 30px;
+
+    min-height: 100vh;
+    height: 100%;
+    width: 100vw;
+
+    background-color: #F1F1F1;
+}
+
+.aside {
+    width: 240px;
+
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 4px;
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-list li {
+    margin-top: 10px;
+    font-size: 18px;
+
+}
+
+.main {
+    min-height: 100%;
+    flex-grow: 1;
+
+    background-color: white;
+    border-radius: 4px;
+}
+
+h1 {
+    padding: 4px 0 10px;
+}
+
+.main-header {
+    padding: 10px 30px;
+    font-weight: bold;
+}
+
+.main-header h1 {
+    font-size: 30px;
+}
+
+.information {
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+}
+
+
+.card {
+    padding: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    background-color: #F42F5E;
+    border-radius: 8px;
+}

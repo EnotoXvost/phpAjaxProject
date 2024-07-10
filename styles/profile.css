@@ -1,0 +1,87 @@
+.card {
+    width: 500px;
+    height: 100%;
+
+    margin: 50px auto;
+    padding: 20px 16px;
+
+    background-color: white;
+    border-radius: 6px;
+}
+
+.card-title h1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.card-avatar {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+    background-color: lightgray;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.form .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.wrapper-label {
+    flex: 1;
+}
+
+.wrapper-label input {
+    border: 1px solid lightgray;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.card-content {
+    margin-top: 20px;
+}
+
+.change-btn {
+    margin-top: 20px;
+}
+
+.change-btn button {
+    color: white;
+    background-color: black;
+    padding: 6px 12px;
+    transition: opacity 0.2s ease;
+    cursor: pointer;
+}
+
+.change-btn button:hover {
+    opacity: 0.8;
+}
+
+.wrapper-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.wrapper-actions button, .wrapper-actions .input {
+    width: 100px;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.wrapper-actions .save-btn {
+    background-color: green;
+
+}
+
+.wrapper-actions .cancel-btn {
+    background-color: red;
+}

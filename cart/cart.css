@@ -1,0 +1,43 @@
+.page-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content {
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table thead {
+    border-bottom: 1px solid black;
+}
+
+.table tr {
+    border-bottom: 1px solid black;
+}
+
+.table th, .table td {
+    padding: 32px 20px;
+    text-align: left;
+}
+
+.btn-order {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    background-color: #F42F5E;
+    cursor: pointer;
+
+    transition: background-color 0.2s ease;
+}
+
+.btn-order:hover {
+    background-color: #c3254b;
+}
